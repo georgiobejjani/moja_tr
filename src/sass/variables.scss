@@ -1,0 +1,31 @@
+//Fonts Specifications
+
+@font-face {
+    font-family: 'Inter Semi bold' ;
+    src: url('../assets/fonts/Inter-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Inter Light' ;
+    src: url('../assets/fonts/Inter-Light.ttf');
+}
+@font-face {
+    font-family: 'Inter Medium' ;
+    src: url('../assets/fonts/Inter-Medium.ttf');
+}
+
+$interSemiBold: 'Inter Semi bold';
+$interLight: 'Inter Light';
+$interMedium: 'Inter Medium';
+
+//Color Palette
+
+//Main background color
+$black: #000000;
+//Main Color
+$DarkBlue: #0C2A4B;
+//Secondary color
+$LightBlue: #38A1DA;
+//Background color is some cases
+$Gray: #264950;
+//Font color in most cases
+$White: #FFFFFF;
