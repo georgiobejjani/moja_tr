@@ -1,13 +1,18 @@
 import React, { Component } from "react";
-import mojabetLogo from "../../assets/photos/mojabet-410x50_copy.png";
-import vectSmart from "../../assets/photos/Vector_Smart_Object_copy_5.png";
-import pick3 from "../../assets/photos/Pick3_selected_1.png";
-import instaloto from "../../assets/photos/Insta_Lotto_1.png";
+// import mojabetLogo from "../../assets/photos/mojabet-410x50_copy.png";
+// import vectSmart from "../../assets/photos/Vector_Smart_Object_copy_5.png";
+// import pick3 from "../../assets/photos/Pick3_selected_1.png";
+// import instaloto from "../../assets/photos/Insta_Lotto_1.png";
+// import globalbet from "../../assets/photos/Frame.png";
+// import cash5 from "../../assets/photos/Vector.png";
+// import dice from "../../assets/photos/dice.png";
+// import sports from "../../assets/photos/sports.png";
 
 export default class Header extends Component {
   render() {
     return (
       <>
+{/*        
         <div className="header">
           <div className="header__container">
             <div className="logo">
@@ -54,14 +59,14 @@ export default class Header extends Component {
 
           <div className="divider_menu"></div>
 
-          <img src={pick3} alt="" />
+          <img src={sports} alt="" />
           <a href="#" className="link">
             MOJASPORT
           </a>
 
           <div className="divider_menu"></div>
 
-          <img src={pick3} alt="" />
+          <img src={globalbet} alt="" />
           <a href="#" className="link">
             GLOBAL.BET
           </a>
@@ -82,19 +87,75 @@ export default class Header extends Component {
 
           <div className="divider_menu"></div>
 
-          <img src={pick3} alt="" />
+          <img src={cash5} alt="" />
           <a href="#" className="link">
             CASH 5
           </a>
 
           <div className="divider_menu"></div>
 
-          <img src={pick3} alt="" />
+          <img src={dice} alt="" />
           <a href="#" className="link">
             CHANCE GAMES
           </a>
           <div className="divider_menu"></div>
         </div>
+        */}
+
+        <div className="flex">
+          <div className="col one">
+            <div className="logo-container">
+              <div className="image-content one" />
+              <label>
+                AFRICAN
+                <br />
+                EXPLORER
+              </label>
+            </div>
+            <a href="/explorer" className="login-link">
+              LOG IN
+              <br />
+              TO PLAY!
+            </a>
+            <div className="image-content one_2" />
+          </div>
+          
+          <div className="col two">
+            <div className="logo-container">
+              <div className="image-content two" />
+              <label>AFRICA FRUIT</label>
+            </div>
+            <a href="/africafruit" className="login-link">
+              LOG IN
+              <br />
+              TO PLAY!
+            </a>
+            <div className="image-content two_2" />
+          </div>
+          
+
+          <div className="col three">
+            <div className="image-content three" />
+            <a href="/lucky7" className="login-link">
+              LOG IN
+              <br />
+              TO PLAY!
+            </a>
+            <div className="image-content three_2" />
+          </div>
+
+          <div className="col fourth">
+            <div className="image-content fourth" />
+            <a href="/spinn" className="login-link">
+              LOG IN
+              <br />
+              TO PLAY!
+            </a>
+            <div className="image-content fourth_2" />
+          </div>
+
+        </div>
+       
       </>
     );
   }

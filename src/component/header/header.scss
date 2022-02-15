@@ -30,7 +30,7 @@
 .header__login {
   max-width: fit-content;
   position: relative;
-  left: 55%;
+  left: 58%;
   top: -72px;
   // background-color: aqua;
   display: flex;
@@ -87,13 +87,136 @@ a {
   height: 49px;
   top: 120px;
   display: flex;
-  
-  justify-content:center;
+
+  justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
-.divider_menu{
-  width:80px;
+.divider_menu {
+  width: 110px;
+}
+
+.backgroud {
+  width: 1512px;
+  height: 1789px;
+  background: linear-gradient(
+    180deg,
+    #0c2a4b 0%,
+    rgba(254, 206, 255, 0.5) 65.31%,
+    rgba(12, 42, 75, 0) 116.72%
+  );
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  width: 331px;
+  height: 408px;
+  margin-inline: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  
+
+  
+
+  &.one {
+    flex: 1;
+    background-color: #0e0c0c;
+  }
+  &.two {
+    flex: 1;
+    background-color: #332f2f;
+    background-image: url("../../assets/photos/Rightwoman1.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+  }
+  &.three {
+    flex: 1;
+    background-color: #0e0c0c;
+  }
+  &.fourth {
+    flex: 1;
+    background-color: #332f2f;
+  }
+}
+
+.login-link {
+  font-family: $interMedium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-family: $interMedium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: $White;
+  
+}
+
+.back_img {
+  width: 129px;
+  height: 291px;
+  background-image: url("../../assets/photos/Rightwoman1.png");
+}
+
+
+.image-content {
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &.one {
+    width: 53px;
+    height: 56px;
+    background-image: url("../../assets/photos/africaexplorerlogo1.png");
+  }
+
+  &.one_2 {
+    width: 234.26px;
+    height: 75px;
+    background-image: url("../../assets/photos/Scratch.png");
+  }
+
+  &.two {
+    width: 54px;
+    height: 34px;
+    background-image: url("../../assets/photos/VectorSmartObject1.png");
+  }
+
+  &.two_2 {
+    width: 80px;
+    height: 75px;
+    background-image: url("../../assets/photos/leftboxinfo11.png");
+  }
+
+  &.three {
+    width: 145px;
+    height: 60px;
+    background-image: url("../../assets/photos/logo1.png");
+  }
+  &.three_2 {
+    width: 194px;
+    height: 115.48px;
+    background-image: url("../../assets/photos/lucky7game1.png");
+  }
+  &.fourth {
+    width: 118.64px;
+    height: 118.64px;
+    background-image: url("../../assets/photos/VectorSmartObject-11.png");
+  }
+  &.fourth_2 {
+    width: 123px;
+    height: 133px;
+    background-image: url("../../assets/photos/col4.png");
+  }
 }
